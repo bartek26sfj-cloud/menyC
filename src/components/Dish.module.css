@@ -1,0 +1,78 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.tittel {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.pris {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #c0392b;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #eeeeee;
+  margin: 0.25rem 0;
+}
+
+.ingredienser {
+  font-size: 0.875rem;
+  color: #555555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.kategori {
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.kategoriForrett {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.kategoriHovedrett {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.kategoriDessert {
+  background-color: #fce4ec;
+  color: #880e4f;
+}
